@@ -16,3 +16,8 @@
     border: none;
     
 }
+.block{
+    background-color: aqua;
+    height: 25px;
+    width: 100%;
+}
