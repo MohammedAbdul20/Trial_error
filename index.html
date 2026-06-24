@@ -6,6 +6,11 @@
             New Page
         </title>
 
+        <script>
+            function showMessage(){
+                alert("You have clicked the button");
+            }
+        </script>
         <link rel="stylesheet" href="./page.css">
     </head>
     <body>
@@ -14,7 +19,7 @@
             Mitochondria is the powerhouse of the cell
         </p>
 
-        <button class = "btn">
+        <button onclick="showMessage()" class = "btn">
             Names 
         </button>
     </body>
